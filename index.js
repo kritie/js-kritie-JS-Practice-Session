@@ -126,7 +126,7 @@ const maxRedigit = function (num) {
     .sort((a, b) => b - a)
     .join('');
 };
-console.log(maxRedigit(num));
+// console.log(maxRedigit(num));
 
 /***************************** */
 
@@ -167,25 +167,46 @@ function findAnalgram(x, y) {
 
 /** Downside triangle ********************** */
 
-document.write('****');
-document.write('<br/>');
-document.write('***');
-document.write('<br/>');
-document.write('**');
-document.write('<br/>');
-document.write('*');
-document.write('<br/>');
-document.write('My result');
-
 function printChars(myChar, count) {
-  const a = [];
-  for (let i = count; i > 0; i--) {
-    for (let j = 1; i <= i; j++) {
-      document.write('inside looop', myChar);
-    }
-  }
+  console.log('inside looop', myChar, count);
 }
 
-printChars('*', 4);
+printChars(w, 4);
 
 /********************************* */
+
+let fruits = ['Apple', 'Banana'];
+
+console.log(fruits);
+
+let first = fruits.shift();
+
+console.log(first);
+
+let last = fruits.unshift('Strawberry');
+
+console.log(last);
+
+let myIndex = fruits.indexOf('Strawberry');
+console.log(myIndex);
+
+let vegetables = ['Cabbage', 'Turnip', 'Radish', 'Carrot'];
+console.log(vegetables);
+
+let myVeggies = vegetables.splice(0, 1);
+
+console.log(vegetables);
+
+let myNewVeg = vegetables.slice(0, 3);
+
+console.log(myNewVeg);
+
+// const MyObj = { a: 1, b: 2, c: 3 };
+
+// for (let i in MyObj) {
+//   console.log(i);
+// }
+
+// for (let j of MyObj) {
+//   console.log(j);
+// }
