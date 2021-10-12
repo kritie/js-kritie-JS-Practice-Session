@@ -146,6 +146,24 @@ function findAnalgram(x, y) {
 // findAnalgram('india', 'aidnhhi');
 
 /**************************** */
+// set time out
+// console.log('a');
+
+// setTimeout(() => console.log('b'), 0);
+
+// setTimeout(() => console.log('c'), 11);
+
+// function myFunction() {
+//   setTimeout(() => console.log('d'), 0);
+// }
+
+// setTimeout(() => console.log('e'), 10);
+
+// console.log('f');
+
+// myFunction();
+
+// setTimeout(() => console.log('g'), 9);
 
 /** Downside triangle ********************** */
 
